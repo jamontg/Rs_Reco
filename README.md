@@ -11,7 +11,7 @@ GENERAL INFORMATION
 		Address: 
 		Email: woechel@sdsu.edu
 
-	B. Graduate Student and Co-Author Contact Information
+	B. Graduate Student and Author Contact Information
 		Name: Jessica Montes
 		Institution: San Diego State University
 		Address: 
@@ -46,7 +46,7 @@ SHARING/ACCESS INFORMATION
 
 1. File List: 
 SMER_FluxData_Daily_RtRhRa.csv
-	This file contains daily mean values of total respiration (Rt), heterotrophic respiration (Rh), and autotrophic respiration (Ra) calculate from the paired Rt-Rh treatments. 
+	This file contains daily mean values of soil respiration (Rt), heterotrophic respiration (Rh), and autotrophic respiration (Ra) calculate from the paired Rt-Rh treatments. 
 
 SMER_FluxData_Daily_RtRhTempVWC.csv
 	This file contains daily mean values of total respiration (Rt), heterotrophic respiration (Rh), soil temperature (integrated 0-5cm) and soil volumetric water content (integrated 0-5cm and calibrated to gravimetric water content). This data is organized with each individual observation in a row with VWC and soil temperature measurements matched with every flux measurement. 
