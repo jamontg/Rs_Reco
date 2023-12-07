@@ -31,7 +31,7 @@ SHARING/ACCESS INFORMATION
 
 1. Licenses/restrictions placed on the data: Please contact authors for authorship if using data for publication
 
-2. Links to publications that cite or use the data: 
+2. Links to publications that cite or use the data: All files contained here were used for manuscript currently under review
 
 3. Links to other publicly accessible locations of the data: 
 
@@ -45,17 +45,19 @@ SHARING/ACCESS INFORMATION
 7. DATA & FILE OVERVIEW
 
 1. File List: 
-SMER_FluxData_Daily_RtRhRa.csv
-	This file contains daily mean values of soil respiration (Rt), heterotrophic respiration (Rh), and autotrophic respiration (Ra) calculate from the paired Rt-Rh treatments. 
+Rs_Ts_SWC_daily.csv
+	This file contains daily mean values of soil respiration (Rs), soil temperature (Ts, measured at 0 cm), soil water content (SWC, measured as average of 0-30 cm), and upscaled soil respiration (Rs_upscaled). 
 
-SMER_FluxData_Daily_RtRhTempVWC.csv
-	This file contains daily mean values of total respiration (Rt), heterotrophic respiration (Rh), soil temperature (integrated 0-5cm) and soil volumetric water content (integrated 0-5cm and calibrated to gravimetric water content). This data is organized with each individual observation in a row with VWC and soil temperature measurements matched with every flux measurement. 
+Rs_Reco_5day.csv
+	This file contains 5-day mean values of upscaled ecosystem respiration (Reco), Rs, Ts, SWC, air temperature (AirT), average rainfall (Rain_avg), and accumulated rainfall (Rain_sum). 
 
-Mauritz_Lipson_Oecologia_StatsGraphCode.R
-	R code to reproduce figures and statistical analyses for a manuscript under review, using the data as included here. 
+Rs_Ts_SWC_annual_means.R
+	R code to reproduce and create figures of Rs response models to Ts and SWC. Linear, quadratic, and cubic fits were included. 
+
+ Rs_response_models.R
+ 	R code to reproduce and create figures of Reco response models to Ts, SWC, air temperature (AirT), rainfall (Rain_sum), and difference between soil and air temperature. 
 
 
 2. Relationship between files, if important: 
-The Rt and Rh values in SMER_FluxData_Daily_RtRhRa.csv are identical to SMER_FluxData_Daily_RtRhTempVWC.csv and both files contain the unique collar IDs as well as a pairing ID that allowed calculation of Ra. The difference is that for SMER_FluxData_Daily_RtRhRa.csv, Rt, Rh, Ra are organized as columns and include Ra. For SMER_FluxData_Daily_RtRhTempVWC.csv each observation is in a separate row and includes VWC and soil temperature data with no Ra. 
-
+	5-day averages of Rs and Reco (Rs_Reco_5day.csv) were used to create response models to environmental variables (Rs_Ts_SWC_annual_means.R and Rs_response_models.R). 
 
