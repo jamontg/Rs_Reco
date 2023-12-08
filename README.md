@@ -65,8 +65,16 @@ Rs_Reco_5day.csv
 
  Ratio_response_models.R
  	R code to reproduce and create figures of Rs/Reco ratios response models to Ts, SWC, AirT, Rain_avg, Rain_sum, and Tair_Ts.  
+  
+ Rs_during_rainfall.R
+ 	R code to observe and statisically test the differences in daily Rs values before and during rainfall events during the wet and dry season.
+  
+  Rs_diurnal_response_models.R
+  	R code to reproduce and create figures of diurnal Rs response to Ts for each month (except September). 
 
-
-2. Relationship between files, if important: 
-	5-day averages of Rs and Reco (Rs_Reco_5day.csv) were used to create response models to environmental variables (Rs_Ts_SWC_annual_means.R and Rs_response_models.R). 
+2. Relationship between files, if important:
+   	The annual averages and coefficient of variance for the three replicates of each microsite were calculated with the files Rs_Ts_SWC_daily.csv and Rs_Ts_SWC_annual_means.R.
+	5-day averages of Rs and Reco (Rs_Reco_5day.csv) were used to create Rs and Rs/Reco ratios response models to environmental variables (Rs_response_models.R and Ratio_response_models.R).
+   	Differences in daily Rs before and during rainfall were observed and analyzed with files Rs_during_rainfall.csv and Rs_during_rainfall.R.
+   	Diurnal relationships between Rs and Ts for each month were analyzed with the files Rs_Ts_SWC_diurnal.csv and Rs_diurnal_response_models.R.
 
