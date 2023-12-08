@@ -49,13 +49,22 @@ Rs_Ts_SWC_daily.csv
 	This file contains daily mean values of soil respiration (Rs), soil temperature (Ts, measured at 0 cm), soil water content (SWC, measured as average of 0-30 cm), and upscaled soil respiration (Rs_upscaled). 
 
 Rs_Reco_5day.csv
-	This file contains 5-day mean values of upscaled ecosystem respiration (Reco), Rs, Ts, SWC, air temperature (AirT), average rainfall (Rain_avg), and accumulated rainfall (Rain_sum). 
+	This file contains 5-day mean values of ecosystem respiration (Reco), upscaled Rs, Ts, SWC, air temperature (AirT), average rainfall (Rain_avg), accumulated rainfall (Rain_sum), and the difference between soil and air temperature (Tair_Ts). 
 
-Rs_Ts_SWC_annual_means.R
-	R code to reproduce and create figures of Rs response models to Ts and SWC. Linear, quadratic, and cubic fits were included. 
+ Rs_during_rainfall.csv
+ 	This file contains the daily Rs, Ts, SWC, and accumulated rainfall values for days with rainfall only. rain_time indicates the timing of the rainfall event (before or after). The Date_Before indicates the day before the rainfall occurred. The relative change of soil respiration during rainfall (Rcrs) is also included. 
+  
+  Rs_Ts_SWC_diurnal.csv
+  	This file contains hourly 5-day periods for each month (except September).
+ 
+ Rs_Ts_SWC_annual_means.R
+	R code to calculate the annual means of daily Rs, Ts, and SWC values for each microsite: under redshank canopy (AS), under chamise canopy (AF), and inter-canopy soil (BARE). Coefficient of variacion was calculated for the three replicates of each microsite. 
 
  Rs_response_models.R
- 	R code to reproduce and create figures of Reco response models to Ts, SWC, air temperature (AirT), rainfall (Rain_sum), and difference between soil and air temperature. 
+	R code to reproduce and create figures of Rs response models to Ts and SWC. 
+
+ Ratio_response_models.R
+ 	R code to reproduce and create figures of Rs/Reco ratios response models to Ts, SWC, AirT, Rain_avg, Rain_sum, and Tair_Ts.  
 
 
 2. Relationship between files, if important: 
