@@ -1,0 +1,10 @@
+cff-version: 1.1.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: Montes
+  given-names: Jessica
+orcid: https://orcid.org/0009-0000-6928-7140
+title:jamontg/Rs_Reco: Data for Effects of Soil Temperature, Soil Water Content, and Rainfall on Soil Respiration and its Contribution to Ecosystem Respiration in Chaparral Shrublands
+version: Montes_Data
+date-released: 2023-12-22
+                           
