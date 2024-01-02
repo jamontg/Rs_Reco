@@ -2,7 +2,7 @@
 
 GENERAL INFORMATION
 
-1. Title of Dataset: EFFECTS OF SOIL TEMPERATURE, SOIL WATER CONTENT, AND RAINFALL ON SOIL RESPIRATION AND ITS CONTRIBUTION TO ECOSYSTEM RESPIRATION IN CHAPARRAL SHRUBLANDS
+1. Title of Dataset: Soil Respiration, Ecosystem Respiration, and Meteorological Variables in Chaparral Shrublands
 
 2. Author Information
 	A. Principal Investigator Contact Information
@@ -41,8 +41,9 @@ SHARING/ACCESS INFORMATION
 	A. If yes, list source(s): 
 
 6. Recommended citation for this dataset:
+   Montes, J. (2023). Soil Respiration, Ecosystem Respiration, and Meteorological Variables in Chaparral Shrublands (Version V1). Zenodo. https://doi.org/10.5281/zenodo.10424614
 
-7. DATA & FILE OVERVIEW
+8. DATA & FILE OVERVIEW
 
 1. File List: 
 Rs_Ts_SWC_daily.csv
