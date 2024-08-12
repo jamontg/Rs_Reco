@@ -11,7 +11,7 @@ GENERAL INFORMATION
 		Address: 
 		Email: woechel@sdsu.edu
 
-	B. Graduate Student and Author Contact Information
+	B. Author Contact Information
 		Name: Jessica Montes
 		Institution: San Diego State University
 		Address: 
@@ -25,22 +25,7 @@ GENERAL INFORMATION
 
 This study was conducted at the San Diego State University Sky Oaks Field Station near Warner Springs, CA (33°23′N, 116°38′W, Elevation: 1420 m)
 
-5. Information about funding sources that supported the collection of the data: 
-
-SHARING/ACCESS INFORMATION
-
-1. Licenses/restrictions placed on the data: Please contact authors for authorship if using data for publication
-
-2. Links to publications that cite or use the data: All files contained here were used for manuscript currently under review
-
-3. Links to other publicly accessible locations of the data: 
-
-4. Links/relationships to ancillary data sets: 
-
-5. Was data derived from another source? NO
-	A. If yes, list source(s): 
-
-6. Recommended citation for this dataset:
+6. Citation for this dataset:
    Montes, J. (2023). Soil Respiration, Ecosystem Respiration, and Meteorological Variables in Chaparral Shrublands (Version V1). Zenodo. https://doi.org/10.5281/zenodo.10424614
 
 8. DATA & FILE OVERVIEW
