@@ -36,9 +36,6 @@ Rs_Ts_SWC_daily.csv
 
 Rs_Reco_5day.csv
 	This file contains 5-day mean values of ecosystem respiration (Reco), upscaled Rs, Ts, SWC, air temperature (AirT), average rainfall (Rain_avg), accumulated rainfall (Rain_sum), and the difference between soil and air temperature (Tair_Ts). 
-
- Rs_during_rainfall.csv
- 	This file contains the daily Rs, Ts, SWC, and accumulated rainfall values for days with rainfall only. rain_time indicates the timing of the rainfall event (before or after). The Date_Before indicates the day before the rainfall occurred. The relative change of soil respiration during rainfall (Rcrs) is also included. 
   
   Rs_Ts_SWC_diurnal.csv
   	This file contains hourly 5-day periods for each month (except September).
@@ -52,15 +49,11 @@ Rs_Reco_5day.csv
  Ratio_response_models.R
  	R code to reproduce and create figures of Rs/Reco ratios response models to Ts, SWC, AirT, Rain_avg, Rain_sum, and Tair_Ts.  
   
- Rs_during_rainfall.R
- 	R code to observe and statisically test the differences in daily Rs values before and during rainfall events during the wet and dry season.
-  
   Rs_diurnal_response_models.R
   	R code to reproduce and create figures of diurnal Rs response to Ts for each month (except September). 
 
 2. Relationship between files, if important:
    	The annual averages and coefficient of variance for the three replicates of each microsite were calculated with the files Rs_Ts_SWC_daily.csv and Rs_Ts_SWC_annual_means.R.
 	5-day averages of Rs and Reco (Rs_Reco_5day.csv) were used to create Rs and Rs/Reco ratios response models to environmental variables (Rs_response_models.R and Ratio_response_models.R).
-   	Differences in daily Rs before and during rainfall were observed and analyzed with files Rs_during_rainfall.csv and Rs_during_rainfall.R.
    	Diurnal relationships between Rs and Ts for each month were analyzed with the files Rs_Ts_SWC_diurnal.csv and Rs_diurnal_response_models.R.
 
